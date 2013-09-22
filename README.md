@@ -1,7 +1,7 @@
 android-screenwriter
 ====================
 
-Gestures, i18n, implicit Intents
+Gestures reader, i18n, implicit Intents
 
 Allows to write directly to the screen and send the text to another application
 
