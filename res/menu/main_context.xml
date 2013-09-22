@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/menu_context_editar"
+        android:title="@string/menu_context_editar"/>
+   <item
+        android:id="@+id/menu_context_esborrar"
+        android:title="@string/menu_context_esborrar"/>
+    
+</menu>

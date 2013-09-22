@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gestureview_color">#FF999999</color>
+    <color name="gesture_color">#FFFF0000</color>
+
+</resources>

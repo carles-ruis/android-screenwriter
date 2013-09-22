@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 1a capa el boto android per defecte -->
+<!-- 2a capa amb la imatge que sera el simbol de majuscules activat o no -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:drawable/btn_default" />
+    <item android:drawable="@drawable/icona_majuscules" />
+</layer-list> 

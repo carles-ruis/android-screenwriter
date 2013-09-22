@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/boto_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/boto_delete"
+            android:src="@drawable/sym_keyboard_delete" />
+
+        <TextView
+            android:id="@+id/text_main"
+            style="@android:style/Widget.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_buit" />
+
+     </LinearLayout>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="@dimen/gestureview_margin"
+        android:layout_weight="1.0"
+        android:background="@color/gestureview_color"
+        android:gestureStrokeType="multiple" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/boto_majuscules"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:background="@drawable/boto_majuscules"
+            android:contentDescription="@string/boto_majuscules"
+            android:textOff=""
+            android:textOn="" />
+
+        <Button
+            android:id="@+id/boto_coma"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:contentDescription="@string/boto_coma"
+            android:text="@string/boto_coma_simbol" />
+
+        <ImageButton
+            android:id="@+id/boto_espai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:contentDescription="@string/boto_espai"
+            android:src="@drawable/sym_keyboard_space" />
+
+        <ImageButton
+            android:id="@+id/boto_enter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:contentDescription="@string/boto_enter"
+            android:src="@drawable/sym_keyboard_return" />
+
+        <ImageButton
+            android:id="@+id/boto_enviar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:contentDescription="@string/boto_enviar"
+            android:src="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+
+</LinearLayout>

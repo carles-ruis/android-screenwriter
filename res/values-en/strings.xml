@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScreenWriter</string>
+    <string name="boto_delete">Delete</string>
+    <string name="boto_majuscules">Caps</string>
+    <string name="boto_coma">Comma</string>
+    <string name="boto_coma_simbol">,</string>
+    <string name="boto_espai">Space</string>
+    <string name="boto_enter">Enter</string>
+    <string name="boto_enviar">Send</string>
+    <string name="boto_ok">OK</string>
+    <string name="boto_cancelar">Cancel</string>
+    <string name="text_buit">No text</string>
+    <string name="menu_llista_gestures">All gestures</string>
+    <string name="menu_context_editar">Edit manually</string>
+	<string name="menu_context_esborrar">Clean</string>
+    <string name="enviar_text">Send with</string>
+    <string name="espera_titol">Loading gestures</string>
+    <string name="espera_msg">Loading gestures</string>
+	<string name="title_activity_edit_text">ScreenWriter</string>
+    <string name="title_activity_llista_de_gestures">ScreenWriter</string>
+    <string name="title_activity_imatge_gestures">ScreenWriter</string>
+    <string name="imatge_gestures_desc">All gestures</string>
+    
+</resources>
