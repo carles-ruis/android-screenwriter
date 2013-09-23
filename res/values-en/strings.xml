@@ -13,8 +13,10 @@
     <string name="boto_cancelar">Cancel</string>
     <string name="text_buit">No text</string>
     <string name="menu_llista_gestures">All gestures</string>
-    <string name="menu_context_editar">Edit manually</string>
-	<string name="menu_context_esborrar">Clean</string>
+    <string name="tip_gestureview">Long press the canvas to see all the gestures</string>
+    <string name="tip_text">Long press the text to show keyboard</string>
+    <string name="menu_context_editar">Show keyboard</string>
+    <string name="menu_context_esborrar">Clean</string>
     <string name="enviar_text">Send with</string>
     <string name="espera_titol">Loading gestures</string>
     <string name="espera_msg">Loading gestures</string>

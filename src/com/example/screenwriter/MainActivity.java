@@ -1,6 +1,7 @@
 package com.example.screenwriter;
 
 import java.util.ArrayList;
+import java.util.Random;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.gesture.Gesture;
@@ -10,6 +11,7 @@ import android.gesture.GestureOverlayView.OnGesturePerformedListener;
 import android.gesture.Prediction;
 import android.os.Bundle;
 import android.view.ContextMenu;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -32,6 +34,7 @@ private GestureLibrary gestureLib;
 private boolean isMajuscules;
 private boolean isNextMajuscules;
 private TextView text;
+private Random r = new Random();
 
 /*- ********************************************************************************** */
 /*- *********** OVERRIDE ************* */
@@ -48,6 +51,7 @@ protected void onCreate(Bundle bundle) {
 	isMajuscules = false;
 	this.iniText(bundle);
 	this.setEventHandlers();
+	showTip();
 }
 
 @Override
@@ -193,6 +197,18 @@ private void iniText(Bundle savedState) {
 		isMajuscules = savedState.getBoolean(SAVED_IS_MAJUSCULES);
 	}		
 	this.registerForContextMenu(text);
+}
+
+private void showTip() {
+	Toast tip;
+	if (r.nextBoolean()) {
+		tip = Toast.makeText(this, R.string.tip_gestureview, Toast.LENGTH_LONG);
+		tip.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL, 0, 0);
+	} else {
+		tip = Toast.makeText(this, R.string.tip_text, Toast.LENGTH_LONG);
+		tip.setGravity(Gravity.TOP|Gravity.CENTER_HORIZONTAL, 0, 100);
+	}
+	tip.show();
 }
 
 /*- ********************************************************************************** */

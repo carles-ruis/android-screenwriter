@@ -13,7 +13,9 @@
     <string name="boto_cancelar">Cancelar</string>
     <string name="text_buit">Sin texto</string>
     <string name="menu_llista_gestures">Todos los gestos</string>
-    <string name="menu_context_editar">Edita manualmente</string>
+    <string name="tip_gestureview">Mantén pulsada la pantalla para ver todos los gestos</string>
+    <string name="tip_text">Mantén pulsado el texto para mostrar teclado</string>
+    <string name="menu_context_editar">Muestra el teclado</string>
 	<string name="menu_context_esborrar">Limpia</string>
     <string name="enviar_text">Enviar con</string>
     <string name="espera_titol">Cargando gestos</string>

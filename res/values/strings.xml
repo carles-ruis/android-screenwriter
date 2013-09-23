@@ -13,8 +13,10 @@
     <string name="boto_cancelar">Cancelar</string>
     <string name="text_buit">Sense text</string>
     <string name="menu_llista_gestures">Tots els gestos</string>
-    <string name="menu_context_editar">Edita manualment</string>
-    <string name="menu_context_esborrar">Esborra tot</string>
+    <string name="tip_gestureview">Pressiona la pantalla per veure tots els gestos</string>
+    <string name="tip_text">Pressiona el text per mostrar el teclat</string>
+    <string name="menu_context_editar">Mostra el teclat</string>
+    <string name="menu_context_esborrar">Esborra</string>
     <string name="enviar_text">Enviar amb</string>
     <string name="espera_titol">Carregant gestos</string>
     <string name="espera_msg">Carregant gestos</string>

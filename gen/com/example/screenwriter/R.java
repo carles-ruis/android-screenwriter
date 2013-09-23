@@ -80,17 +80,19 @@ public final class R {
         public static final int boto_espai=0x7f070005;
         public static final int boto_majuscules=0x7f070002;
         public static final int boto_ok=0x7f070008;
-        public static final int enviar_text=0x7f07000e;
-        public static final int espera_msg=0x7f070010;
-        public static final int espera_titol=0x7f07000f;
-        public static final int imatge_gestures_desc=0x7f070014;
-        public static final int menu_context_editar=0x7f07000c;
-        public static final int menu_context_esborrar=0x7f07000d;
+        public static final int enviar_text=0x7f070010;
+        public static final int espera_msg=0x7f070012;
+        public static final int espera_titol=0x7f070011;
+        public static final int imatge_gestures_desc=0x7f070016;
+        public static final int menu_context_editar=0x7f07000e;
+        public static final int menu_context_esborrar=0x7f07000f;
         public static final int menu_llista_gestures=0x7f07000b;
         public static final int text_buit=0x7f07000a;
-        public static final int title_activity_edit_text=0x7f070011;
-        public static final int title_activity_imatge_gestures=0x7f070013;
-        public static final int title_activity_llista_de_gestures=0x7f070012;
+        public static final int tip_gestureview=0x7f07000c;
+        public static final int tip_text=0x7f07000d;
+        public static final int title_activity_edit_text=0x7f070013;
+        public static final int title_activity_imatge_gestures=0x7f070015;
+        public static final int title_activity_llista_de_gestures=0x7f070014;
     }
     public static final class style {
         /** 
